@@ -23,6 +23,7 @@ Unoffical mirror of https://code.google.com/p/glutorrent/
 Example
 ==========
 
+```php
 <?php
 // http://www.glutorrent.com/developer/
 // http://web.archive.org/web/20080127172806/http://www.glutorrent.com/developer/
@@ -58,3 +59,4 @@ foreach(glob('C:\\torrents\\*.torrent') as $TorrentFile){
     file_put_contents($TorrentFile, $Torrent->Encode());
 }
 ?>
+```

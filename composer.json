@@ -1,0 +1,20 @@
+{
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "coldwinds/glutorrent",
+				"source": {
+					"url": "https://github.com/coldwinds/glutorrent.git",
+					"type": "git"
+				},
+				"autoload": {
+					"classmap": ["src/glutorrent"]
+				}
+			}
+		}
+	],
+	"require": {
+		"coldwinds/glutorrent": "dev-master"
+	}
+}

@@ -4,9 +4,11 @@
 			"type": "package",
 			"package": {
 				"name": "coldwinds/glutorrent",
+				"version": "dev-master",
 				"source": {
 					"url": "https://github.com/coldwinds/glutorrent.git",
-					"type": "git"
+					"type": "git",
+					"reference": "origin/master"
 				},
 				"autoload": {
 					"classmap": ["src/glutorrent"]

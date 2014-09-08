@@ -3,7 +3,7 @@
 	"type": "library",
 	"description": "The BEncoded BitTorrent class developed by GluTorrent.",
 	"keywords": ["glutorrent", "bittorrent", "bencode", "torrent"],
-	"license": "Unknown",
+	"license": "New BSD License",
 	"require": {
 		"php": ">=5.2.0"
 	}

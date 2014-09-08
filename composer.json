@@ -1,22 +1,10 @@
 {
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "coldwinds/glutorrent",
-				"version": "dev-master",
-				"source": {
-					"url": "https://github.com/coldwinds/glutorrent.git",
-					"type": "git",
-					"reference": "origin/master"
-				},
-				"autoload": {
-					"classmap": ["src/glutorrent"]
-				}
-			}
-		}
-	],
+	"name": "coldwinds/glutorrent",
+	"type": "library",
+	"description": "The BEncoded BitTorrent class developed by GluTorrent.",
+	"keywords": ["glutorrent", "bittorrent", "bencode", "torrent"],
+	"license": "Unknown",
 	"require": {
-		"coldwinds/glutorrent": "dev-master"
+		"php": ">=5.2.0"
 	}
 }

@@ -10,8 +10,16 @@ abstract class BEncodingException extends Exception {
     public function &getInnerException(){
         return $this->InnerException;
     }
-    
-    public function __toString($TabSpace = ''){
+
+    /**
+     * The __toString magic method can no longer accept arguments.
+     *
+     * http://php.net/manual/en/migration53.incompatible.php
+     *
+     * @return string
+     */
+    public function __toString(){
+        $TabSpace = '';
         $ExceptionText = "\n";
         $ExceptionText .= $TabSpace.get_class($this)." Thrown in\n";
         $ExceptionText .= $TabSpace.'File: '.basename($this->getFile())."\n";
